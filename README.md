@@ -1,2 +1,34 @@
-# netfree_yemen
-Flutter project created by KLENCOD IDE
+# NetFree Yemen 🇾🇪
+
+تطبيق تشخيص اتصال الإنترنت، إعدادات APN المعتمدة، واستعلام الباقات الرسمية لشبكة يمن موبايل.
+
+## 🚀 كيفية تشغيل وبناء التطبيق محلياً
+
+### المتطلبات الأساسية:
+1. تثبيت **Flutter SDK** (إصدار 3.19.0 أو أحدث).
+2. تثبيت **Android Studio** و **Android SDK** (مع Java 17).
+
+### خطوات التشغيل:
+1. قم بفك استخراج / استنساخ المشروع:
+   ```bash
+   git clone https://github.com/your-username/netfree_yemen.git
+   cd netfree_yemen
+   ```
+2. تثبيت الحزم والمكتبات:
+   ```bash
+   flutter pub get
+   ```
+3. تشغيل التطبيق على محاكي أو جهاز حقيقي:
+   ```bash
+   flutter run
+   ```
+4. استخراج ملف الـ APK النهائي للإنتاج:
+   ```bash
+   flutter build apk --release
+   ```
+   سيتم إنشاء الملف في المسار التالي:
+   `build/app/outputs/flutter-apk/app-release.apk`
+
+## 🛡️ الموثوقية والأمان
+- التطبيق لا يقدم أو يضمن أساليب لاختراق الفوترة أو فتح إنترنت مجاني غير رسمي.
+- كافة بيانات قياس السرعة تحفظ محلياً فقط ولا يتم مشاركتها أو رفعها لأي خادم.
